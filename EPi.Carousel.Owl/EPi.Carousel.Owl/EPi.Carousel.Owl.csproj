@@ -102,8 +102,8 @@
     <Content Include="Content\OwlCarousel\owl.theme.css" />
     <Content Include="Content\OwlCarousel\owl.transitions.css" />
     <Content Include="Content\modules\epi.carousel.owl.scss" />
-    <Content Include="Views\Shared\Blocks\OwlCarouselBlock.cshtml" />
-    <Content Include="Views\Shared\DisplayTemplates\OwlContentArea.cshtml" />
+    <Content Include="Views\Shared\Blocks\OwlCarouselBlock.cshtml.pp" />
+    <Content Include="Views\Shared\DisplayTemplates\OwlContentArea.cshtml.pp" />
     <None Include="Scripts\jquery-1.7-vsdoc.js" />
     <Content Include="Scripts\jquery-1.7.js" />
     <Content Include="Scripts\jquery-1.7.min.js" />

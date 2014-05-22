@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("EPi.Carousel.Owl")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Sample carousel for EPiServer CMS using the OwlCarousel plugin.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Geta AS")]
 [assembly: AssemblyProduct("EPi.Carousel.Owl")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCopyright("Copyright © Geta AS 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -101,7 +101,6 @@
     <Content Include="Content\OwlCarousel\owl.carousel.css" />
     <Content Include="Content\OwlCarousel\owl.theme.css" />
     <Content Include="Content\OwlCarousel\owl.transitions.css" />
-    <Content Include="Global.asax" />
     <Content Include="Content\modules\epi.carousel.owl.scss" />
     <Content Include="Views\Shared\Blocks\OwlCarouselBlock.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\OwlContentArea.cshtml" />
@@ -110,31 +109,16 @@
     <Content Include="Scripts\jquery-1.7.min.js" />
     <Content Include="Scripts\owl.carousel.js" />
     <Content Include="Scripts\owl.carousel.min.js" />
-    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Models\BlockTypes\OwlCarouselBlock.cs" />
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Models\MediaTypes\ImageFile.cs" />
+    <Content Include="Models\BlockTypes\OwlCarouselBlock.cs.pp" />
+    <Content Include="Models\MediaTypes\ImageFile.cs.pp" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\web.config" />
     <Content Include="packages.config" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

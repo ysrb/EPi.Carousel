@@ -1,6 +1,6 @@
 ﻿@using EPiServer.Editor
 @using EPiServer.Web.Mvc.Html
-@model EPi.Carousel.Owl.Models.BlockTypes.OwlCarouselBlock
+@model $rootnamespace$.Models.BlockTypes.OwlCarouselBlock
 
 <div class="owl-carousel-wrapper">
     <div class="@(PageEditing.PageIsInEditMode ? string.Empty : "owl-carousel carousel")" data-carousel @Html.EditAttributes(m => m.ImageArea)>

@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using EPi.Carousel.Owl.Models.MediaTypes;
+using $rootnamespace$.Models.MediaTypes;
 using EPiServer.Core;
 using EPiServer.DataAnnotations;
 using EPiServer.Shell.ObjectEditing;

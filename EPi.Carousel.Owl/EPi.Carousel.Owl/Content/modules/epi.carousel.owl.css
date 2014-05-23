@@ -5,15 +5,16 @@
 
 .carousel .owl-item {
   position: relative;
-  padding-right: 10px;
   max-height: 658px; }
   .carousel .owl-item > div {
-    overflow: hidden; }
+    overflow: hidden;
+    height: 658px;
+    margin-right: 10px; }
 .carousel img {
   display: block;
   position: relative;
-  min-height: 100%;
-  min-width: 100%; }
+  width: auto;
+  height: auto; }
 .carousel .owl-buttons > * {
   position: absolute;
   top: 50%;
@@ -24,8 +25,9 @@
   right: 50px; }
 .carousel .icon-left,
 .carousel .icon-right {
-  background-color: red;
+  background-color: #444444;
   background-repeat: no-repeat;
+  border-radius: 100%;
   width: 80px;
   height: 80px; }
 .carousel .icon-left {

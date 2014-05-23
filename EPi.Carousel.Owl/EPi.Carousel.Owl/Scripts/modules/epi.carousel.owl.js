@@ -12,7 +12,7 @@ window.Geta.Carousel = function(element, options){
             {
                 // OwlCarousel Options
                 owl: {
-                    items: 2.5,
+                    items: 3,
                     itemsScaleUp: true,
                     navigation: true,
                     navigationText: [
@@ -56,16 +56,27 @@ window.Geta.Carousel = function(element, options){
         },
 
         _layoutImage: function(image){
-            var width = image.outerWidth();
-            var height = image.outerHeight();
-            var maxWidth = image.parent().outerWidth();
-            var maxHeight = image.parent().outerHeight();
             image.removeAttr('style');
-            if(width > height){
-                image.css('left', - (width - maxWidth) / 2);
+            var container = image.parent();
+            var imageAspect = image.width() / image.height();
+            var containerW = container.width();
+            var containerH = container.height();
+            var containerAspect = containerW / containerH;
+            if(containerAspect < imageAspect){
+                // taller
+                image.css({
+                    width: 'auto',
+                    height: containerH,
+                    left: -(containerH*imageAspect-containerW)/2
+                });
             }
-            else{
-                image.css('top', - (height- maxHeight) / 2);
+            else {
+                // wider
+                image.css({
+                    width: containerW,
+                    height: 'auto',
+                    top:-(containerW/imageAspect-containerH)/2
+                });
             }
         },
 

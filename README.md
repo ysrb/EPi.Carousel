@@ -1,16 +1,18 @@
 # EPi.Carousel
 
-An EPiServer block for displaying images with the [Owl Carousel][1] plugin.
+A *sample* of an EPiServer block for displaying images with the [Owl Carousel][1] plugin.
+
+![Example edit][3]
 
 ![Example][2]
 
 ## Getting started
 
-Install the NuGet package
+### Install the NuGet package
 
     Install-Package EPi.Carousel
 
-Include stylesheets and scripts
+### Include stylesheets and scripts
 
     <link rel="stylesheet" href="/Content/OwlCarousel/owl.carousel.css">
     <link rel="stylesheet" href="/Content/modules/epi.carousel.owl.css">
@@ -18,16 +20,34 @@ Include stylesheets and scripts
     <script src="/Scripts/owl.carousel.js"></script>
     <script src="/Scripts/modules/epi.carousel.owl.js"></script>
 
+### Markup
+
 The required markup is included in OwlCarouselBlock.cshtml and OwlContentArea.cshtml.
     
-Initialize
+### Initialize
 
-    new Geta.Carousel($('[data-carousel]'), options);
-    
-`options.owl` defines options for the [Owl Carousel][3] plugin
+Initialize the plugin before the end of `</body>`:
+
+        ...
+        new Geta.Carousel($('[data-carousel]'), options);
+    </body>
+
+ Or initialize the plugin inside a jQuery `$(document).ready` handler:
+ 
+    $(document).ready(function(){
+        new Geta.Carousel($('[data-carousel]'), options);
+    });
+
+## Plugin options
+
+`options.owl` defines options for the [Owl Carousel][4] plugin. See the [Owl Carousel][5] website for all available options.
+
+`options.imageScale` defaults to `cover`. Set to `none` to disable image scaling.
     
 
 
   [1]: owlgraphic.com/owlcarousel/
-  [2]: https://github.com/Geta/EPi.Carousel/blob/master/example.png
-  [3]: owlgraphic.com/owlcarousel/
+  [2]: https://raw.githubusercontent.com/Geta/EPi.Carousel/master/example.png
+  [3]: https://raw.githubusercontent.com/Geta/EPi.Carousel/master/example-edit.png
+  [4]: owlgraphic.com/owlcarousel/
+  [5]: owlgraphic.com/owlcarousel/

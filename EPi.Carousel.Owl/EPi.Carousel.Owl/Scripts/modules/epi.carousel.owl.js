@@ -10,6 +10,8 @@ window.Geta.Carousel = function(element, options){
         options: $.extend(
             {},
             {
+                imageScale: 'cover',
+
                 // OwlCarousel Options
                 owl: {
                     items: 3,
@@ -42,10 +44,12 @@ window.Geta.Carousel = function(element, options){
         //
 
         _layout: function(){
-            this.element.find('img').each($.proxy(this._layoutImageAsynch, this));
+            if(this.options.imageScale == 'cover'){
+                this.element.find('img').each($.proxy(this._layoutImageAsync, this));
+            }
         },
 
-        _layoutImageAsynch: function(i, el){
+        _layoutImageAsync: function(i, el){
             var image = $(el);
             if(this._imageHasLoaded(el)){
                 this._layoutImage(image);
@@ -58,12 +62,13 @@ window.Geta.Carousel = function(element, options){
         _layoutImage: function(image){
             image.removeAttr('style');
             var container = image.parent();
-            var imageAspect = image.width() / image.height();
+            var imageWidth = image.width();
+            var imageHeight = image.height();
+            var imageAspect = imageWidth / imageHeight;
             var containerW = container.width();
             var containerH = container.height();
             var containerAspect = containerW / containerH;
             if(containerAspect < imageAspect){
-                // taller
                 image.css({
                     width: 'auto',
                     height: containerH,
@@ -71,7 +76,6 @@ window.Geta.Carousel = function(element, options){
                 });
             }
             else {
-                // wider
                 image.css({
                     width: containerW,
                     height: 'auto',

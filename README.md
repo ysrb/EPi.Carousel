@@ -10,7 +10,7 @@ A *sample* of an EPiServer block for displaying images with the [Owl Carousel][1
 
 ### Install the NuGet package
 
-    Install-Package EPi.Carousel
+    Install-Package EPi.Carousel.Owl
 
 ### Include stylesheets and scripts
 

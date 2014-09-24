@@ -1,0 +1,4 @@
+﻿You can easily add your own partial views for a single carousel slide for content types that implement Episerver's IContent interface.
+Just add a view into this folder ("~/Views/Shared/Blocks/") and name it according to this pattern: "Carousel{TypeName}.cshtml".
+So for instance if you have a content type "StandardPage" in your project, add a view "CarouselStandardPage.cshtml".
+Check the file "~/Views/Shared/Blocks/CarouselSlideBlock.cshmtl" to see an example of the slide item view implementation.

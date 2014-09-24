@@ -3,7 +3,7 @@ using EPiServer;
 using EPiServer.Core;
 using EPiServer.DataAnnotations;
 
-namespace Epi.Carousel.Bootstrap.Models.BlockTypes.Carousel
+namespace EPi.Carousel.Bootstrap.Models.BlockTypes.Carousel
 {
     [ContentType(AvailableInEditMode = false, GUID = "46FB2297-2CEC-45E6-BC9C-6F59305C53EC")]
     public class SlideLinkBlock : BlockData

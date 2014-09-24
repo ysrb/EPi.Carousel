@@ -7,8 +7,8 @@
     <ProjectGuid>{2456A15A-902A-4981-A215-75C4F5D4FF95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Epi.Carousel.Bootstrap</RootNamespace>
-    <AssemblyName>Epi.Carousel.Bootstrap</AssemblyName>
+    <RootNamespace>EPi.Carousel.Bootstrap</RootNamespace>
+    <AssemblyName>EPi.Carousel.Bootstrap</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

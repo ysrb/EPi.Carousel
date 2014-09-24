@@ -2,7 +2,7 @@
 using EPiServer;
 using Geta.EPi.Cms;
 
-namespace Epi.Carousel.Bootstrap.Extensions
+namespace EPi.Carousel.Bootstrap.Extensions
 {
     public static class UrlExtensions
     {

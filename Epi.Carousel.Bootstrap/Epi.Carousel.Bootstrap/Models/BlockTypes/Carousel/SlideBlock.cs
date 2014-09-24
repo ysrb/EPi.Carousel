@@ -4,7 +4,7 @@ using EPiServer.Core;
 using EPiServer.DataAnnotations;
 using EPiServer.Web;
 
-namespace Epi.Carousel.Bootstrap.Models.BlockTypes.Carousel
+namespace EPi.Carousel.Bootstrap.Models.BlockTypes.Carousel
 {
     [ContentType(GUID = "C9D40DBB-13D7-4D5C-B509-F680F52EC445")]
     [ImageUrl("~/Content/icons/carousel/slideblock.png")]

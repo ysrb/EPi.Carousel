@@ -2,7 +2,7 @@
 using EPiServer.DataAbstraction;
 using EPiServer.ServiceLocation;
 
-namespace Epi.Carousel.Bootstrap.Extensions
+namespace EPi.Carousel.Bootstrap.Extensions
 {
     // ReSharper disable once InconsistentNaming
     public static class IContentExtensions

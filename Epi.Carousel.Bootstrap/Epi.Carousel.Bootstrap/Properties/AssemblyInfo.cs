@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Epi.Carousel.Bootstrap")]
+[assembly: AssemblyTitle("EPi.Carousel.Bootstrap")]
 [assembly: AssemblyDescription("Carousel for EPiServer CMS using Twitter Bootstrap.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Geta AS")]
-[assembly: AssemblyProduct("Epi.Carousel.Bootstrap")]
+[assembly: AssemblyProduct("EPi.Carousel.Bootstrap")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

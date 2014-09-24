@@ -1,6 +1,6 @@
-﻿@using EPi.Carousel.Bootstrap.Extensions
+﻿@using $rootnamespace$.Extensions.Carousel
 @using EPiServer.Web.Mvc.Html
-@using EPi.Carousel.Bootstrap.Models.BlockTypes.Carousel
+@using $rootnamespace$.Models.BlockTypes.Carousel
 @model SlideBlock
 
 <img class="img-responsive" src="@Model.ImageUrl.GetResizedImageUrl((int)ViewBag.ImageWidth, (int)ViewBag.ImageHeight)" alt="@Model.ImageUrl">

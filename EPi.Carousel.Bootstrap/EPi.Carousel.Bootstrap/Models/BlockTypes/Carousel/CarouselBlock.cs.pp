@@ -4,7 +4,7 @@ using System.Linq;
 using EPiServer.Core;
 using EPiServer.DataAnnotations;
 
-namespace EPi.Carousel.Bootstrap.Models.BlockTypes.Carousel
+namespace $rootnamespace$.Models.BlockTypes.Carousel
 {
     [ContentType(GUID = "6CD713D4-6469-4A33-91D2-3E7A25E2DBD3")]
     [ImageUrl("~/Content/icons/carousel/carousel.png")]

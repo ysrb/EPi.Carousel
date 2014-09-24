@@ -106,8 +106,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EPiServer.CMS.Core.7.6.0\lib\net40\EPiServer.XForms.dll</HintPath>
     </Reference>
-    <Reference Include="Geta.EPi.Cms">
-      <HintPath>..\packages\Geta.EPi.Cms.0.0.0.14\lib\net45\Geta.EPi.Cms.dll</HintPath>
+    <Reference Include="Geta.EPi.Extensions">
+      <HintPath>..\packages\Geta.EPi.Extensions.1.1.0.27\lib\net40\Geta.EPi.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
       <Private>True</Private>
@@ -160,11 +160,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Extensions\IContentExtensions.cs" />
-    <Compile Include="Extensions\UrlExtensions.cs" />
-    <Compile Include="Models\BlockTypes\Carousel\CarouselBlock.cs" />
-    <Compile Include="Models\BlockTypes\Carousel\SlideLinkBlock.cs" />
-    <Compile Include="Models\BlockTypes\Carousel\SlideBlock.cs" />
+    <Content Include="Extensions\Carousel\IContentExtensions.cs.pp" />
+    <Content Include="Extensions\Carousel\UrlExtensions.cs.pp" />
+    <Content Include="Models\BlockTypes\Carousel\CarouselBlock.cs.pp" />
+    <Content Include="Models\BlockTypes\Carousel\SlideLinkBlock.cs.pp" />
+    <Content Include="Models\BlockTypes\Carousel\SlideBlock.cs.pp" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -173,8 +173,8 @@
     <Content Include="Views\Shared\Blocks\Epi.Carousel.Bootstrap.Readme.txt" />
     <None Include="app.config" />
     <None Include="packages.config" />
-    <Content Include="Views\Shared\Blocks\CarouselBlock.cshtml" />
-    <Content Include="Views\Shared\Blocks\CarouselSlideBlock.cshtml" />
+    <Content Include="Views\Shared\Blocks\CarouselBlock.cshtml.pp" />
+    <Content Include="Views\Shared\Blocks\CarouselSlideBlock.cshtml.pp" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,8 +1,8 @@
 ﻿using System.Globalization;
 using EPiServer;
-using Geta.EPi.Cms;
+using Geta.EPi.Extensions.QueryString;
 
-namespace EPi.Carousel.Bootstrap.Extensions
+namespace $rootnamespace$.Extensions.Carousel
 {
     public static class UrlExtensions
     {

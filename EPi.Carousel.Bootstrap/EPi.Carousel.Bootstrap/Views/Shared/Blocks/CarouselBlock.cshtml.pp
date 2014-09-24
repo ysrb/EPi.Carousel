@@ -2,8 +2,8 @@
 @using System.Web.Mvc.Html
 @using EPiServer.Web.Mvc.Html
 @using EPiServer.Editor
-@using EPi.Carousel.Bootstrap.Extensions
-@using EPi.Carousel.Bootstrap.Models.BlockTypes.Carousel
+@using $rootnamespace$.Extensions.Carousel
+@using $rootnamespace$.Models.BlockTypes.Carousel
 @model CarouselBlock
 
 @if (!(Model.HasSlides || PageEditing.PageIsInEditMode)) { return; }

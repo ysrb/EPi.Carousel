@@ -21,9 +21,17 @@
         @for (var index = 0; index < Model.Slides.Count(); index++)
         {
             var slide = Model.Slides.ElementAt(index);
+			var partialViewName = slide.GetCarouselSlidePartialViewName();
             <div class="item @(index == 0 ? "active" : string.Empty) animated fadeInRight">
-                @{ Html.RenderPartial(slide.GetCarouselSlidePartialViewName(), slide,
-                       new ViewDataDictionary { { "ImageHeight", Model.ImageHeight.GetValueOrDefault(600) }, { "ImageWidth", Model.ImageWidth.GetValueOrDefault(1889) } }); }
+                @{
+            if (!Html.ViewExists(partialViewName))
+            {
+                partialViewName = "~/Views/Shared/Blocks/CarouselCannotDisplaySlide.cshtml";
+            }
+
+            Html.RenderPartial(partialViewName, slide,
+                new ViewDataDictionary { { "ImageHeight", Model.ImageHeight.GetValueOrDefault(600) }, { "ImageWidth", Model.ImageWidth.GetValueOrDefault(1889) } });
+                }
             </div>
         }
     </div>

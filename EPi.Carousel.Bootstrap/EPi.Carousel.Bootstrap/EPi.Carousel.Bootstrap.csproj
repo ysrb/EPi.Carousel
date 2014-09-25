@@ -165,6 +165,7 @@
     <Content Include="Models\BlockTypes\Carousel\CarouselBlock.cs.pp" />
     <Content Include="Models\BlockTypes\Carousel\SlideLinkBlock.cs.pp" />
     <Content Include="Models\BlockTypes\Carousel\SlideBlock.cs.pp" />
+    <Content Include="Extensions\Carousel\HtmlHelperExtensions.cs.pp" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -175,6 +176,7 @@
     <None Include="packages.config" />
     <Content Include="Views\Shared\Blocks\CarouselBlock.cshtml.pp" />
     <Content Include="Views\Shared\Blocks\CarouselSlideBlock.cshtml.pp" />
+    <Content Include="Views\Shared\Blocks\CarouselCannotDisplaySlide.cshtml.pp" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

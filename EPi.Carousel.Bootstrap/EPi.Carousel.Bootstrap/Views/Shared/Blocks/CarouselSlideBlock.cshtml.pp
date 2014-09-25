@@ -3,7 +3,9 @@
 @using $rootnamespace$.Models.BlockTypes.Carousel
 @model SlideBlock
 
-<img class="img-responsive" src="@Model.ImageUrl.GetResizedImageUrl((int)ViewBag.ImageWidth, (int)ViewBag.ImageHeight)" alt="@Model.ImageUrl">
+@{ var url = @Model.ImageUrl.ToString().GetCarouselImageUrl((int)ViewBag.ImageWidth, (int)ViewBag.ImageHeight); }
+
+<img class="img-responsive" src="@url" alt="@url">
 <div class="carousel-caption">
     <h2 class="animated fadeInLeftBig">
         @Html.PropertyFor(m => m.Title)

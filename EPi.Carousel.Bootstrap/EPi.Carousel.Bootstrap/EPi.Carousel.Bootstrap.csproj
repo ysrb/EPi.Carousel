@@ -161,11 +161,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Extensions\Carousel\IContentExtensions.cs.pp" />
-    <Content Include="Extensions\Carousel\UrlExtensions.cs.pp" />
     <Content Include="Models\BlockTypes\Carousel\CarouselBlock.cs.pp" />
     <Content Include="Models\BlockTypes\Carousel\SlideLinkBlock.cs.pp" />
     <Content Include="Models\BlockTypes\Carousel\SlideBlock.cs.pp" />
     <Content Include="Extensions\Carousel\HtmlHelperExtensions.cs.pp" />
+    <Content Include="Extensions\Carousel\StringExtensions.cs.pp" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

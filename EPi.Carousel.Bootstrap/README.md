@@ -6,11 +6,11 @@ A *sample* of an EPiServer block for displaying images with the EPi.Carousel.Boo
 
 ## Getting started
 
-#### Install the NuGet package
+#### Install the NuGet package.
 
     Install-Package EPi.Carousel.Bootstrap
 
-#### Add Carousel block to a content area
+#### Add Carousel block to a content area.
 #### Add Carousel slide blocks to the created carousel block.
 ## Extending carousel slide types:
 	

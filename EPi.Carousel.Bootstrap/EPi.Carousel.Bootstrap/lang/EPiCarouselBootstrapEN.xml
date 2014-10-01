@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <language name="English" id="en">
+    <contenttypes>
+
+      <carouselblock>
+        <name>Carousel block</name>
+        <description>Carousel block</description>
+      </carouselblock>
+
+      <slideblock>
+        <name>Slide block</name>
+        <description>A single slide block for carousel.</description>
+      </slideblock>
+
+      <slidelinkblock>
+        <name>Link block</name>
+        <description>A block for defining a link.</description>
+        <properties>
+          <text>
+            <caption>Tekst</caption>
+            <help>Tekst</help>
+          </text>
+          <link>
+            <caption>Link</caption>
+            <help>Link</help>
+          </link>
+        </properties>
+      </slidelinkblock>
+
+      <icontentdata>
+        <properties>
+          <interval>
+            <caption>Interval (seconds)</caption>
+            <help>Slide change interval in seconds</help>
+          </interval>
+          <imageheight>
+            <caption>Image height</caption>
+          </imageheight>
+          <imagewidth>
+            <caption>Image width</caption>
+          </imagewidth>
+          <buttonlink>
+            <caption>Button link</caption>
+          </buttonlink>
+        </properties>
+      </icontentdata>
+
+    </contenttypes>
+  </language>
+</languages>

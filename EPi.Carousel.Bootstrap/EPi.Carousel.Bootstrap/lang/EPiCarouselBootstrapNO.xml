@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <language name="Norwegian" id="no">
+    <contenttypes>
+
+      <carouselblock>
+        <name>Karusell</name>
+        <description>Karusell</description>
+      </carouselblock>
+
+      <slideblock>
+        <name>Skyv blokken</name>
+        <description>En enkelt lysbilde blokk for karusellen.</description>
+      </slideblock>
+
+      <slidelinkblock>
+        <name>Lysbilde lenke blokk</name>
+        <description>En blokk for å definere en kobling.</description>
+        <properties>
+          <text>
+            <caption>Tekst</caption>
+            <help>Tekst</help>
+          </text>
+          <link>
+            <caption>Link</caption>
+            <help>Link</help>
+          </link>
+        </properties>
+      </slidelinkblock>
+
+      <icontentdata>
+        <properties>
+          <interval>
+            <caption>Intervall (sekunder)</caption>
+            <help>Slide endring intervall i sekunder</help>
+          </interval>
+          <buttonlink>
+            <caption>Knapp lenke</caption>
+          </buttonlink>
+          <imageheight>
+            <caption>Bildehøyde</caption>
+          </imageheight>
+          <imagewidth>
+            <caption>Bildebredde</caption>
+          </imagewidth>
+        </properties>
+      </icontentdata>
+
+    </contenttypes>
+  </language>
+</languages>
+

@@ -173,6 +173,7 @@
   <ItemGroup>
     <Content Include="Content\icons\carousel\carousel.png" />
     <Content Include="Content\icons\carousel\slideblock.png" />
+    <Content Include="Scripts\carousel.slideheight.normalizer.js" />
     <Content Include="Views\Shared\Blocks\Epi.Carousel.Bootstrap.Readme.txt" />
     <None Include="app.config" />
     <None Include="packages.config" />

@@ -4,7 +4,16 @@
 @using EPiServer.Editor
 @using $rootnamespace$.Extensions.Carousel
 @using $rootnamespace$.Models.BlockTypes.Carousel
+@using System.Web.Optimization
 @model CarouselBlock
+
+@Scripts.Render("~/bundles/EPi.Carousel.Bootstrap")
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        carouselNormalization('carousel');
+    });
+</script>
 
 @if (!(Model.HasSlides || PageEditing.PageIsInEditMode)) { return; }
 

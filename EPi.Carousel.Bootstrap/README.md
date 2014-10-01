@@ -12,6 +12,12 @@ A *sample* of an EPiServer block for displaying images with the EPi.Carousel.Boo
 
 #### Add Carousel block to a content area.
 #### Add Carousel slide blocks to the created carousel block.
+#### Add slide height normalizer to your BundleConfig.cs file.
+
+	bundles.Add(new ScriptBundle("~/bundles/EPi.Carousel.Bootstrap")
+                .Include("~/Scripts/carousel.slideheight.normalizer.js")
+                .Include("~/Scripts/jquery-2.1.1.min.js"));
+				
 ## Extending carousel slide types:
 	
 	You can easily add your own partial views for a single carousel slide for content types that implement EPiserver's IContent interface.

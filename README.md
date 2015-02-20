@@ -46,8 +46,8 @@ Initialize the plugin before the end of `</body>`:
     
 
 
-  [1]: owlgraphic.com/owlcarousel/
+  [1]: http://owlgraphic.com/owlcarousel/
   [2]: https://raw.githubusercontent.com/Geta/EPi.Carousel/master/example.png
   [3]: https://raw.githubusercontent.com/Geta/EPi.Carousel/master/example-edit.png
-  [4]: owlgraphic.com/owlcarousel/
-  [5]: owlgraphic.com/owlcarousel/
+  [4]: http://owlgraphic.com/owlcarousel/
+  [5]: http://owlgraphic.com/owlcarousel/

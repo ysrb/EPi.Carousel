@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>$id$</id>
@@ -10,7 +10,8 @@
     <licenseUrl>https://github.com/Geta/EPi.Carousel/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <copyright>Copyright © 2014 Geta AS</copyright>
-    <tags>EPiServer 7.5</tags>
+    <iconUrl>http://cdn.geta.no/opensource/icons/carousel-package-icon-32x32.png</iconUrl>
+    <copyright>Copyright © 2015 Geta</copyright>
+    <tags>EPiServer Carousel</tags>
   </metadata>
 </package>

@@ -47,7 +47,7 @@ Initialize the plugin before the end of `</body>`:
 ### Default values
 * items: 3
 * nav: true
-* navText: ["<div class='icon-left'></div>", "<div class='icon-right'></div>"]
+* navText: ["&lt;div class='icon-left'&gt;&lt;/div&gt;", "&lt;div class='icon-right'&gt;&lt;/div&gt;"]
     
 
 

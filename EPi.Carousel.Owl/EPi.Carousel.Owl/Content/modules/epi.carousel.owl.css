@@ -3,36 +3,43 @@
   .owl-carousel-wrapper > p {
     margin-top: 8px; }
 
-.carousel .owl-item {
+.owl-carousel .owl-item {
   position: relative;
   max-height: 658px; }
-  .carousel .owl-item > div {
+  .owl-carousel .owl-item > div {
     overflow: hidden;
     height: 658px;
     margin-right: 10px; }
-.carousel img {
+
+.owl-carousel img {
   display: block;
   position: relative;
   width: auto;
   height: auto; }
-.carousel .owl-buttons > * {
+
+.owl-carousel .owl-nav > * {
   position: absolute;
   top: 50%;
   margin-top: -40px; }
-.carousel .owl-buttons > .owl-prev {
+
+.owl-carousel .owl-nav > .owl-prev {
   left: 50px; }
-.carousel .owl-buttons > .owl-next {
+
+.owl-carousel .owl-nav > .owl-next {
   right: 50px; }
-.carousel .icon-left,
-.carousel .icon-right {
-  background-color: #444444;
+
+.owl-carousel .icon-left,
+.owl-carousel .icon-right {
+  background-color: #444;
   background-repeat: no-repeat;
   border-radius: 100%;
   width: 80px;
   height: 80px; }
-.carousel .icon-left {
+
+.owl-carousel .icon-left {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAMAAAB8gJvdAAAAM1BMVEX////////////////////////////////////////////////////////////////////lEOhHAAAAEHRSTlMAECAwQFBgcH6Pn6+/z9/vyfuE8gAAAI9JREFUeF690dEOwiAMheHWMjYLbOf9n9bEG1HCIWPqf/s17UVlLgvax2UH4L2BiGeFKrBSRaaKTBVbo1bpoY0eldq8IlCN51TLX3Sj6vJZpuo/0wD6//TSoi3ntyex07u2bODb40W/D9xPeBLuPuGJu5Yv+jrwOOEHd6v9xt2FehbqSagvwtylkyWgRBn2AGgXIWSRAtQlAAAAAElFTkSuQmCC");
   background-position: 20px center; }
-.carousel .icon-right {
+
+.owl-carousel .icon-right {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAMAAAB8gJvdAAAAM1BMVEX////////////////////////////////////////////////////////////////////lEOhHAAAAEHRSTlMAECAwQFBgcH6Pn6+/z9/vyfuE8gAAAI9JREFUeF6109EOwiAMheFWGJstjPP+TyvxZiToiSj+t1/S9KKVD9IYCBqAc3vHBc/Sa90B5hnUM6gfoK618zB66Lx+4RHc00Ivut4PcLcJz8Ld/uC58ziylotdxiLdXs+Ljc5GoJp+0DvVcS2naovUJy+F6041LdI66I1/n1GVTFWcqmxMW8a0lQrgTed7ALFWIWQf2MQ/AAAAAElFTkSuQmCC");
   background-position: 29px center; }

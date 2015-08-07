@@ -9,7 +9,7 @@ $carousel-icon-background: #444 !default;
   }
 }
 
-.carousel{
+.owl-carousel{
 
   .owl-item{
     position: relative;
@@ -31,7 +31,7 @@ $carousel-icon-background: #444 !default;
   
   // Buttons
   
-  .owl-buttons{
+  .owl-nav{
     > * {
       position: absolute;
       top: 50%;

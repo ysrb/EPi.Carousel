@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -95,20 +96,24 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\modules\epi.carousel.owl.css" />
+    <Content Include="Content\owl.carousel.css" />
+    <Content Include="gulpfile.js" />
+    <Content Include="package.json" />
+    <None Include="Scripts\jquery-1.8.3.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.3.js" />
+    <Content Include="Scripts\jquery-1.8.3.min.js" />
     <Content Include="Scripts\modules\epi.carousel.owl.js" />
-    <Content Include="Content\OwlCarousel\AjaxLoader.gif" />
-    <Content Include="Content\OwlCarousel\grabbing.png" />
-    <Content Include="Content\OwlCarousel\owl.carousel.css" />
-    <Content Include="Content\OwlCarousel\owl.theme.css" />
-    <Content Include="Content\OwlCarousel\owl.transitions.css" />
     <Content Include="Content\modules\epi.carousel.owl.scss" />
+    <Content Include="Scripts\owl.carousel.js" />
     <Content Include="Views\Shared\Blocks\OwlCarouselBlock.cshtml.pp" />
     <Content Include="Views\Shared\DisplayTemplates\OwlContentArea.cshtml.pp" />
-    <None Include="Scripts\jquery-1.7-vsdoc.js" />
-    <Content Include="Scripts\jquery-1.7.js" />
-    <Content Include="Scripts\jquery-1.7.min.js" />
-    <Content Include="Scripts\owl.carousel.js" />
-    <Content Include="Scripts\owl.carousel.min.js" />
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Models\BlockTypes\OwlCarouselBlock.cs.pp" />

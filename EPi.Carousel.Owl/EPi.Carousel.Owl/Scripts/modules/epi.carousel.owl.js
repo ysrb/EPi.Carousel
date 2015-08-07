@@ -8,6 +8,7 @@ window.Geta.Carousel = function(element, options){
         //
 
         options: $.extend(
+            true,
             {},
             {
                 imageScale: 'cover',
@@ -15,9 +16,9 @@ window.Geta.Carousel = function(element, options){
                 // OwlCarousel Options
                 owl: {
                     items: 3,
-                    itemsScaleUp: true,
-                    navigation: true,
-                    navigationText: [
+                    //itemsScaleUp: true,
+                    nav: true,
+                    navText: [
                         "<div class='icon-left'></div>",
                         "<div class='icon-right'></div>"
                     ]

@@ -43,6 +43,11 @@ Initialize the plugin before the end of `</body>`:
 `options.owl` defines options for the [Owl Carousel][4] plugin. See the [Owl Carousel][5] website for all available options.
 
 `options.imageScale` defaults to `cover`. Set to `none` to disable image scaling.
+
+### Default values
+* items: 3
+* nav: true
+* navText: ["<div class='icon-left'></div>", "<div class='icon-right'></div>"]
     
 
 
